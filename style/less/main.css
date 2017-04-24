@@ -1,0 +1,81 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+body {
+  padding: 10px;
+}
+/*我的基本信息  info*/
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section h2 {
+  font-size: 46px;
+  margin-bottom: 1em;
+}
+section:nth-of-type(2n+1) {
+  background-color: #f4f4f4;
+}
+section.summary {
+  color: #fff;
+  line-height: 1.5;
+  background-image: url(../../img/bg.jpg);
+  background-size: cover;
+}
+section.summary .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+section.works ul {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  justify-content: space-between;
+}
+section.works .imgwarpper {
+  padding: 10px 10px 3px;
+  background-color: #fff;
+  text-align: right;
+}
+section.works img {
+  max-width: 200px;
+}
+section.works a {
+  text-decoration: none;
+  color: inherit;
+}
+section.works h3 {
+  font-weight: normal;
+  padding-left: 10px;
+  font-size: 16px;
+  margin: 8px 0;
+}
+section.contacts {
+  line-height: 2;
+}
+section.contacts dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20em;
+}
+section.contacts dt {
+  width: 3em;
+}
+section.contacts dd {
+  width: 17em;
+}
+/*# sourceMappingURL=main.css.map */
